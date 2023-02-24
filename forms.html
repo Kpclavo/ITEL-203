@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <title>Registration Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="title">
+                Registration Form
+            </div>
+            <div class="form">
+                <div class="input_field">
+                    <label>First Name</label>
+                    <input type="text" class="input" <br>
+                </div>
+                <div class="input_field">
+                    <label>Last Name</label>
+                    <input type="text" class="input" <br>
+                </div>
+                <div class="input_field">
+                    <label>Password</label>
+                    <input type="password" class="input" <br>
+                </div>
+                <div class="input_field">
+                    <label>Confirm Password</label>
+                    <input type="password" class="input" <br>
+                </div>
+                <div class="input_field">
+                    <label>Gender</label>
+                    <div class="custom_select">
+                        <select id="my-select">
+                            <option value="1">Select</option>
+                            <option value="male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="say">I prefer not to say</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field button">
+                    <label for="option1"> <input type="radio" id="option1" name="radio" value="option1" class="radio-button"> Single</label>
+                    <label for="option2"> <input type="radio" id="option2" name="radio" value="option2" class="radio-button">Married </label>
+                    <label for="option3"> <input type="radio" id="option3" name="radio" value="option3" class="radio-button">Complicated </label>
+                </div>
+                <div class="input_field">
+                    <label for="birthdate">Birthdate:</label>
+                    <input type="date" id="birthdate" name="birthdate" max="2023-02-20" />
+                </div>
+                <div class="input_field">
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" maxlength="11">
+                </div>
+                <div class="input_field">
+                   <b></b> <label>Address</label></b>
+                    <textarea class="textarea"></textarea>
+                </div>
+                <div class="input_field">
+                    <label>Postal Code</label>
+                    <input type="text" class="input" <br>
+                </div>
+                <div class="input_field terms">
+                    <label class="check">
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                    </label>
+                    <b><p> Agreed to terms and conditions </p></b>
+                    
+                </div>
+                <div class="input_field">
+                        <button type="button" class="btn">
+                            Register
+                          </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
